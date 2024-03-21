@@ -199,12 +199,30 @@
     
     .mobile-section-img,
     .computer-section-img,
-    .console-section-img,
-    .course-section-img,
-    .document-section-img,
-    .apps-section-img {
+    .console-section-img {
         left: 50%;
         top: 100px;
+        transform: translate(-50%,-50%);
+        width: 350px;
+        transition: 0.5s;
+    }
+    .apps-section-img {
+        left: 50%;
+        top: 50px;
+        transform: translate(-50%,-50%);
+        width: 200px;
+        transition: 0.5s;
+    }
+    .document-section-img{
+        left: 50%;
+        top: 80px;
+        transform: translate(-50%,-50%);
+        width: 350px;
+        transition: 0.5s;
+    }
+    .course-section-img{
+        left: 50%;
+        top: 80px;
         transform: translate(-50%,-50%);
         width: 350px;
         transition: 0.5s;
@@ -214,19 +232,100 @@
     .computer-section-img:hover,
     .console-section-img:hover,
     .course-section-img:hover,
-    .document-section-img:hover,
-    .apps-section-img:hover {
-        left: 50%;
-        top: 100px;
-        transform: translate(-50%,-50%);
-        width: 400px;
-        transition: 0.5s;
-    }
+    .document-section-img:hover {
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    transition: 0.5s;
+}
+.apps-section-img:hover {
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    transition: 0.5s;
+}
     
-    .mobile-section-head {
+    .mobile-section-head{
         padding: 5px 30px 5px;
         left: 50%;
         bottom: 50px;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        margin: 0px;
+        height: auto;
+        font-size: 20px;
+        color: #ffffff;
+        position: relative;
+        text-transform: uppercase;
+        border: #ffffff solid 2px;
+        border-radius: 10px;
+    }
+    .computer-section-head{
+        padding: 5px 30px 5px;
+        left: 50%;
+        bottom: 100px;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        margin: 0px;
+        height: auto;
+        font-size: 20px;
+        color: #ffffff;
+        position: relative;
+        text-transform: uppercase;
+        border: #ffffff solid 2px;
+        border-radius: 10px;
+    }
+    .console-section-head{
+        padding: 5px 30px 5px;
+        left: 50%;
+        bottom: 100px;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        margin: 0px;
+        height: auto;
+        font-size: 20px;
+        color: #ffffff;
+        position: relative;
+        text-transform: uppercase;
+        border: #ffffff solid 2px;
+        border-radius: 10px;
+    }
+    .course-section-head{
+        padding: 5px 30px 5px;
+        left: 50%;
+        bottom: 100px;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        margin: 0px;
+        height: auto;
+        font-size: 20px;
+        color: #ffffff;
+        position: relative;
+        text-transform: uppercase;
+        border: #ffffff solid 2px;
+        border-radius: 10px;
+    }
+    .document-section-head{
+        padding: 5px 30px 5px;
+        left: 50%;
+        bottom: 100px;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        margin: 0px;
+        height: auto;
+        font-size: 20px;
+        color: #ffffff;
+        position: relative;
+        text-transform: uppercase;
+        border: #ffffff solid 2px;
+        border-radius: 10px;
+    }
+    .apps-section-head {
+        padding: 5px 30px 5px;
+        left: 50%;
+        bottom: 10px;
         transform: translate(-50%,-50%);
         width: 90%;
         margin: 0px;
