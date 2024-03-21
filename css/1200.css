@@ -210,7 +210,12 @@
         transition: 0.5s;
     }
     
-    .mobile-section-img:hover {
+    .mobile-section-img:hover,
+    .computer-section-img:hover,
+    .console-section-img:hover,
+    .course-section-img:hover,
+    .document-section-img:hover,
+    .apps-section-img:hover {
         left: 50%;
         top: 100px;
         transform: translate(-50%,-50%);
