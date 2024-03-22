@@ -55,6 +55,7 @@
     width: 180px;
     border-radius: 10px;
     margin: 6px 30px 7px;
+    
 }
 
 .div-nav-button {
@@ -329,16 +330,16 @@
 }
 
 .computer-section-img {
-    bottom: 53px;
-    left: 100px;
+    bottom: 80px;
+    left: 0px;
     width: 450px;
     position: relative;
     transition: 0.5s;
 }
 
 .computer-section-img:hover {
-    bottom: 70px;
-    left: 80px;
+    bottom: 100px;
+    left: 0px;
     width: 500px;
     transition: 0.5s;
 }
@@ -346,7 +347,7 @@
 .computer-section-head {
     padding: 5px 30px 5px;
     left: 500px;
-    bottom: 350px;
+    bottom: 410px;
     width: 700px;
     font-size: 40px;
     color: #ffffff;
@@ -398,16 +399,16 @@
 }
 
 .console-section-img {
-    bottom: 53px;
-    left: 100px;
+    bottom: 80px;
+    left: 10px;
     width: 450px;
     position: relative;
     transition: 0.5s;
 }
 
 .console-section-img:hover {
-    bottom: 70px;
-    left: 80px;
+    bottom: 110px;
+    left: 0px;
     width: 500px;
     transition: 0.5s;
 }
@@ -415,7 +416,7 @@
 .console-section-head {
     padding: 5px 30px 5px;
     left: 500px;
-    bottom: 350px;
+    bottom: 410px;
     width: 700px;
     font-size: 40px;
     color: #ffffff;
@@ -468,15 +469,15 @@
 
 .course-section-img {
     bottom: 53px;
-    left: 100px;
+    left: 0px;
     width: 450px;
     position: relative;
     transition: 0.5s;
 }
 
 .course-section-img:hover {
-    bottom: 70px;
-    left: 80px;
+    bottom: 100px;
+    left: 0px;
     width: 500px;
     transition: 0.5s;
 }
@@ -484,7 +485,7 @@
 .course-section-head {
     padding: 5px 30px 5px;
     left: 500px;
-    bottom: 350px;
+    bottom: 410px;
     width: 700px;
     font-size: 40px;
     color: #ffffff;
@@ -536,16 +537,16 @@
 }
 
 .document-section-img {
-    bottom: 53px;
-    left: 100px;
+    bottom: 100px;
+    left: 0px;
     width: 450px;
     position: relative;
     transition: 0.5s;
 }
 
 .document-section-img:hover {
-    bottom: 70px;
-    left: 80px;
+    bottom: 150px;
+    left: 0px;
     width: 500px;
     transition: 0.5s;
 }
@@ -553,7 +554,7 @@
 .document-section-head {
     padding: 5px 30px 5px;
     left: 500px;
-    bottom: 350px;
+    bottom: 410px;
     width: 700px;
     font-size: 40px;
     color: #ffffff;
@@ -605,24 +606,24 @@
 }
 
 .apps-section-img {
-    bottom: 53px;
+    bottom: 60px;
     left: 100px;
-    width: 450px;
+    width: 300px;
     position: relative;
     transition: 0.5s;
 }
 
 .apps-section-img:hover {
-    bottom: 70px;
+    bottom: 100px;
     left: 80px;
-    width: 500px;
+    width: 350px;
     transition: 0.5s;
 }
 
 .apps-section-head {
     padding: 5px 30px 5px;
     left: 500px;
-    bottom: 350px;
+    bottom: 260px;
     width: 700px;
     font-size: 40px;
     color: #ffffff;
