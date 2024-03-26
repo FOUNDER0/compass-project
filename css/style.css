@@ -257,7 +257,7 @@
 .mobile-section-line {
     width: 100%;
     height: 200px;
-    background-color: #c05ce0;
+    background-color: #bb00ff;
 }
 
 .mobile-section-img {
@@ -303,13 +303,13 @@
     color: #ffffff;
     background-color: #000000;
     padding: 5px 30px 5px;
-    border: #c05ce0 solid 2px;
+    border: #bb00ff solid 2px;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 .mobile-section-button:hover{
-    background-color: #c05ce0;
+    background-color: #bb00ff;
     transition: 0.5s;
     position: relative;
     bottom: 3px;
@@ -326,7 +326,7 @@
 .computer-section-line {
     width: 100%;
     height: 200px;
-    background-color: #c05ce0;
+    background-color: #ffc60a;
 }
 
 .computer-section-img {
@@ -372,13 +372,13 @@
     color: #ffffff;
     background-color: #000000;
     padding: 5px 30px 5px;
-    border: #c05ce0 solid 2px;
+    border: #ffc60a solid 2px;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 .computer-section-button:hover{
-    background-color: #c05ce0;
+    background-color: #ffc60a;
     transition: 0.5s;
     position: relative;
     bottom: 3px;
@@ -395,7 +395,7 @@
 .console-section-line {
     width: 100%;
     height: 200px;
-    background-color: #c05ce0;
+    background-color: #1877f2;
 }
 
 .console-section-img {
@@ -441,13 +441,13 @@
     color: #ffffff;
     background-color: #000000;
     padding: 5px 30px 5px;
-    border: #c05ce0 solid 2px;
+    border: #1877f2 solid 2px;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 .console-section-button:hover{
-    background-color: #c05ce0;
+    background-color: #1877f2;
     transition: 0.5s;
     position: relative;
     bottom: 3px;
@@ -464,7 +464,7 @@
 .course-section-line {
     width: 100%;
     height: 200px;
-    background-color: #c05ce0;
+    background-color: #ff0000;
 }
 
 .course-section-img {
@@ -510,13 +510,13 @@
     color: #ffffff;
     background-color: #000000;
     padding: 5px 30px 5px;
-    border: #c05ce0 solid 2px;
+    border: #ff0000 solid 2px;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 .course-section-button:hover{
-    background-color: #c05ce0;
+    background-color: #ff0000;
     transition: 0.5s;
     position: relative;
     bottom: 3px;
@@ -533,7 +533,7 @@
 .document-section-line {
     width: 100%;
     height: 200px;
-    background-color: #c05ce0;
+    background-color: #00db00;
 }
 
 .document-section-img {
@@ -579,13 +579,13 @@
     color: #ffffff;
     background-color: #000000;
     padding: 5px 30px 5px;
-    border: #c05ce0 solid 2px;
+    border: #00db00 solid 2px;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 .document-section-button:hover{
-    background-color: #c05ce0;
+    background-color: #00db00;
     transition: 0.5s;
     position: relative;
     bottom: 3px;
@@ -602,12 +602,12 @@
 .apps-section-line {
     width: 100%;
     height: 200px;
-    background-color: #c05ce0;
+    background-color: #ff08ff;
 }
 
 .apps-section-img {
-    bottom: 60px;
-    left: 100px;
+    bottom: 50px;
+    left: 70px;
     width: 300px;
     position: relative;
     transition: 0.5s;
@@ -648,17 +648,64 @@
     color: #ffffff;
     background-color: #000000;
     padding: 5px 30px 5px;
-    border: #c05ce0 solid 2px;
+    border: #ff08ff solid 2px;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 .apps-section-button:hover{
-    background-color: #c05ce0;
+    background-color: #ff08ff;
     transition: 0.5s;
     position: relative;
     bottom: 3px;
 
+}
+/*----------post----------*/
+
+.post {
+    width: auto;
+    max-width: 700px;
+    margin: 20px 8px 20px;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    border: #cacaca solid 2px;
+    background-color: #ffffff;
+    transition: 0.5s;
+    position: relative;
+
+}
+
+.post:hover {
+    z-index: 1;
+    position: relative;
+    border: #000000 solid 2px;
+    transition: 0.5s ease-in-out;
+}
+
+.post h1 {
+    text-transform: uppercase;
+}
+
+.post p {
+    width: auto;
+    max-width: 330px;
+    color: #808080;
+}
+
+.post a {
+    color: #ffffff;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 5px 50px 5px;
+    background-color: #000000;
+}
+
+.post a:hover {
+    background-color: #1877f2;
+    transition: 0.7s;
 }
 /*--------------------end--------------------*/
 
