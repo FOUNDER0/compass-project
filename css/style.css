@@ -707,6 +707,12 @@
     background-color: #1877f2;
     transition: 0.7s;
 }
+/*--------------------mobile section--------------------*/
+.mobile-line{
+    width: 100%;
+    height: 200px;
+    background-color: #988e84;
+}
 /*--------------------end--------------------*/
 
 .end{

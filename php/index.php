@@ -1,5 +1,6 @@
 <?php
 
+
 //----------search button----------//
 
 // Get the search query from the URL parameter
