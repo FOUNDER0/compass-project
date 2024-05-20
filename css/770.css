@@ -1,0 +1,124 @@
+
+
+@media screen  and (max-width:770px){
+
+    /*-------------------------nav----------------------------*/
+    .nav{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .div-nav-button {
+        width: 50%;
+        height: 80px;
+        display: none;
+        
+    }
+    .div-nav-video{
+        width: 50%;
+        z-index: 100;
+    }
+    .nav-video{
+        width: 180px;
+        margin: 7px ;
+
+    }
+    .nav-ul{
+        display: none;
+    }
+    .button-menu{
+        width: 50px;
+        height: 50px;
+        margin: 15px;
+        border-radius: 10px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    #menuicon{
+        width: 100%;
+        height: 100%;
+        padding: 12px;
+        font-size: 24px;
+        transition: 0.2s;
+        border-radius: 10px;
+        color: #ffffff;
+        border: #000000 solid 2px;
+    }
+    #menuicon:hover,
+    #menuicon:active{
+        display: block;
+        padding: 12px;
+        transition: 0.5s;
+        border-radius: 10px;
+        color: #000000;
+        position: relative;
+        border: #000000 solid 2px;
+        background-color: #ffffff;
+    }
+    .button-menu:hover .button-list-ul{
+        display: block;
+    }
+    .button-list-ul{
+        display:none;
+        left: 0px;
+        top: 90px;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        border: #000000 dotted 1.5px;
+        background-color: #ffffff;
+        
+    }
+    .button-list-li{
+        padding: 10px ;
+        margin-top: 10px;
+        text-align: center;
+        z-index: 1000;
+
+    }
+    .button-list-li a{
+        margin: 0px;
+        display: block;
+        padding: 10px 50px;
+        transition: 0.5s;
+        color: #000000;
+        border-radius: 100px;
+        text-decoration: none;
+        text-transform: capitalize;
+
+    }
+    .button-list-li a:hover{
+        transition: 0.3s ;
+        border-radius: 100px;
+        color: #ffffff;
+        background-color: #000000;
+
+    }
+
+    /*-------------------------search----------------------------*/
+
+    .search-input{
+        width: 70px;
+    }
+    .search-input:hover {
+        width: 120px;
+        transition: 0.5s;
+    }
+    .search-button{
+        float: right;
+    }
+
+    /*-------------------------end----------------------------*/
+
+    .end-social-media i{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .end-nav-a{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .end-nav p{
+        font-size: 10px;
+    }
+
+}
