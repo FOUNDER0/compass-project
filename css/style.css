@@ -163,7 +163,7 @@ body {
     right: 100px;
     position: relative;
     text-align: center;
-    color: var(--clr-light);
+    color: var(--clr-dark);
     font-size: 80px;
     font-weight: 1000;
     transition: 0.5s;
